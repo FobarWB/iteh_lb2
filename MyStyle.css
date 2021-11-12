@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 10px; /* разделение текста на 10 пикселей*/
+    padding: 0px; /* растояние между содержимым блокам и его границей*/
+    font-family: 'Times New Roman', Times, serif; /*шрифт текста*/
+    background: rgb(198, 206, 218) /*rgb(135, 231, 255)*/
+}
+
+.selector_class
+{
+    background-color: bisque;
+    font-size: large;
+    font-style: inherit;
+    text-align: center;
+    color: rgb(0, 49, 182);
+}
+
+#Text_id
+{
+    background-color: rgb(255, 214, 163);
+    font-size: large;
+    font-style: inherit;
+    text-align: center;
+    color: rgb(5, 75, 180);
+}
+
+absolute_position
+{
+    position: absolute;
+    top: 160px;
+    right: 100px;   
+    background:chocolate;
+}
+
+relative_position
+{
+    position:relative;
+    top: 00px;
+    left: 100px;
+    background: rgb(207, 180, 22);
+}
+
+.MyFloat
+{
+    float: left;
+    clear: both;
+    background: rgb(211, 196, 65); 
+    border: 4px solid rgb(255, 115, 0);
+    padding: 15px;
+    margin-left: 30px;
+    color: white;
+}
+
+.wrapper {
+    position: absolute;
+    left: -260px;
+    top: 40%;
+    background: #ffe6ac;
+    width: 280px;
+    height: 120px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+   }
+   .wrapper:hover {
+     transform: translateX(260px);
+     transition: 1s;
+   }
+   
+   img
+    {
+     margin: 6px;
+     padding: 2px;
+     float: left;
+     width: 100px;
+     height: 100px;
+   }
+    p {
+      margin: 10px;
+      color: rgb(0, 0, 0);
+      
+    }
+    .connection {
+      background: orange;
+      transform: rotate(-90deg);
+      width: 120px;
+      position: absolute;
+      text-align: center;
+      top: 49px; 
+      right: -50px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+   .connection p {
+     margin: 0;
+     padding: 0 3px 3px 5px;
+     
+   }
+    
